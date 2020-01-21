@@ -23,8 +23,13 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "src"
+    "**/*.tsx"
   ],
-  "exclude": ["node_modules", "**/__mocks__*", "**/*.spec.**", "out", ".next"]
+  "exclude": [
+    "node_modules",
+    "**/__mocks__*",
+    "**/*.spec.**",
+    "out",
+    ".next"
+  ]
 }

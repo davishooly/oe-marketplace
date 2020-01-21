@@ -5,7 +5,7 @@ import { Input, Select, Icon } from 'antd';
 import {Button, StyledHeader, PopContainer, SignUpSpan} from "./styles";
 import PopConfirm from '../Pop'
 
-// import Logo from '../../../Icons/omaar-logo.svg'
+import Logo from '../../../static/omaar-logo.svg';
 
 
 const { Option } = Select;
@@ -80,7 +80,7 @@ const Header = () => {
     return (
         <StyledHeader>
             <div className="header">
-                {/*<img src={Logo} alt='logo' style={{filter: "invert(0)", paddingBottom: 20}}/>*/}
+                <img src={Logo} alt='logo' style={{filter: "invert(0)", paddingBottom: 20}}/>
 
                 <ul>
                     <li>
@@ -142,7 +142,7 @@ export const DashboardHeader = () => {
     return (
         <StyledHeader>
             <div className="header">
-                {/*<img src={Logo} alt='logo' style={{filter: "invert(0)", paddingBottom: 20}}/>*/}
+                <img src={Logo} alt='logo' style={{filter: "invert(0)", paddingBottom: 20}}/>
                 <ul>
                     <li>
                         <div style={{ marginBottom: 16, marginRight: 30 }}>
