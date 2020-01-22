@@ -10,13 +10,13 @@ const ProductBanner: React.FC<any> = () => {
         <ProductBannerContainer>
                <div className='carousel__container'>
                    <Carousel>
-                       {
-                           images.map((i: any, index: number) => (
-                               <div key={index.toString()}>
-                               <img src={image} alt="image"/>
-                               </div>
-                           ))
-                       }
+                       {/*{*/}
+                       {/*    images.map((i: any, index: number) => (*/}
+                       {/*        <div key={index.toString()}>*/}
+                       {/*        <img src={image} alt="image"/>*/}
+                       {/*        </div>*/}
+                       {/*    ))*/}
+                       {/*}*/}
                    </Carousel>
                </div>
                <div className="static__banner">
